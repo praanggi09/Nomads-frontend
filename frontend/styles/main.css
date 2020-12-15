@@ -234,4 +234,8 @@ header .btn-get-started:hover {
   background-color: #FFAA69;
   color: #ffffff;
 }
+
+.section-footer a {
+  color: #071C4D;
+}
 /*# sourceMappingURL=main.css.map */
