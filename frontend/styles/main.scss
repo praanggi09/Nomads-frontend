@@ -1,0 +1,21 @@
+body {
+  background-color: #ffffff;
+  font-family: 'Assistant', sans-serif;
+  color: #071C4D;
+}
+
+.navbar-brand {
+  img {
+    max-height: 48px;
+  }
+}
+
+.btn-login {
+  background-color: #071C4D;
+  color: #ffffff;
+
+  &:hover {
+    background-color: #1E3771;
+    color: #ffffff;
+  }
+}
