@@ -74,3 +74,87 @@ header {
     }
   }
 }
+
+//Statistik
+.section-stats {
+  margin-top: -50px;
+
+  .stats-detail {
+    padding-top: 15px;
+    padding-left: 60px;
+    background-color: #ffffff;
+  }
+
+  h2 {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+
+  p {
+    font-size: 20px;
+    font-weight: lighter;
+  }
+}
+
+//Popular
+.section-popular {
+  min-height: 540px;
+  background-color: #051334;
+  margin-top: -50px;
+  margin-bottom: -230px;
+
+  .section-popular-heading {
+    margin-top: 150px;
+
+    h2,
+    p {
+      color: #ffffff;
+    }
+
+    h2 {
+      font-family: 'Playfair Display', sans-serif;
+      font-size: 40px;
+      font-weight: bold;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+
+}
+
+.section-popular-content {
+  .section-popular-travel {
+    .card-travel {
+      min-height: 380px;
+      background-color: #dddddd;
+      color: #ffffff;
+      padding: 30px;
+      background-size: cover;
+      margin-bottom: 20px;
+    }
+
+    .travel-country {
+      font-size: 18px;
+      color: #ffffff;
+    }
+
+    .travel-location {
+      font-size: 26px;
+      color: #ffffff;
+    }
+
+    .travel-button {
+      .btn-travel-details {
+        background-color: #fa750f;
+        color: #ffffff;
+
+        &:hover {
+          background-color: #FFAA69;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
